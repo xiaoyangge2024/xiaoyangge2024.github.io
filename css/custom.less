@@ -1,0 +1,160 @@
+.el-textarea {
+  /* background: url(../img/0.jpg); */
+}
+
+#blog-info {
+  position: relative;
+}
+
+#tp-weather-widget {
+  /* position: fixed;
+  left: 145px;
+  top: 17px; */
+  display: inline-block;
+  transform: translateY(-2px);
+
+  @media screen and (max-width: 900px) {
+    display: none;
+  }
+
+  @media screen and (max-width: 765px) {
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #tp-weather-widget {
+    >div {
+      div {
+          &:nth-of-type(2) {
+          width: 330px !important; 
+          height: auto !important;
+          border-radius: 7px !important;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #tp-weather-widget {
+    >div {
+      div {
+        &:nth-of-type(2) {
+          left: -100px !important;
+        }
+      }
+    }
+  }
+}
+
+.OwO-packages {
+  display: flex;
+  align-items: center;
+  li {
+    width: 50px;
+    height: 100%;
+    line-height: 8px !important;
+    span {
+      font-size: 18px !important;
+      height: 30px;
+      display: block;
+      line-height: 30px;
+      &:nth-of-type(1) {
+        font-size: 13px !important;
+      }
+    }
+    img {
+      object-fit: cover;
+    width: 100%;
+    }
+  }
+}
+
+.reward-main {
+  .text {
+
+      >span {
+        font-size: 20px;
+      font-weight: 700;
+      display: block;
+      transform: translateY(40px);
+      }
+  }
+}
+.tk-preview-container {
+  img {
+    max-height: 100px;
+    border-radius: 10px;
+  }
+  blockquote {
+    background-color: #4c6677;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0px 15px;
+    img {
+      border-radius: 5px;
+      max-height: 65px;
+      margin: 5px 0;
+    }
+  }
+}
+
+.tk-content {
+  img {
+    border-radius: 10px;
+  }
+}
+
+.tk-content {
+  blockquote {
+    background-color: #4c6677;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0px 15px;
+    img {
+      border-radius: 5px;
+      max-height: 65px;
+      margin: 5px 0;
+    }
+  }
+}
+
+#msakTipBox {
+  position: relative;
+  text-align: center;
+  line-height: 45px;
+  &::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    border-radius: 5px;
+    background-color: rgba(22, 119, 179,.8);
+    content: '✅ 你无需删除空行，直接评论以获取最佳展示效果';
+    width: 100%;
+    height: 45px;
+    color: #fff;
+
+  }
+}
+
+
+@font-face {
+  font-family: "iconfont"; /* Project id 4388820 */
+  src: url('//at.alicdn.com/t/c/font_4388820_52ctlv3mlvk.woff2?t=1703572104973') format('woff2'),
+       url('//at.alicdn.com/t/c/font_4388820_52ctlv3mlvk.woff?t=1703572104973') format('woff'),
+       url('//at.alicdn.com/t/c/font_4388820_52ctlv3mlvk.ttf?t=1703572104973') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-pinglun:before {
+  content: "\e601";
+}

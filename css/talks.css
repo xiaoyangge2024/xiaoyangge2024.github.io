@@ -1,0 +1,219 @@
+/*加载样式*/
+.qexo_inner,
+.qexo_loader {
+  border-radius: 50%;
+  position: absolute;
+}
+.qexo_loading {
+  min-height: 200px;
+}
+.qexo_part {
+  min-height: 100px;
+}
+.qexo_loader {
+  background-color: #90939920;
+  width: 64px;
+  height: 64px;
+  perspective: 800px;
+}
+.qexo_inner {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+.qexo_inner.one {
+  left: 0;
+  top: 0;
+  animation: rotate-one 1s linear infinite;
+  border-bottom: 3px solid #888;
+  position: absolute;
+}
+.qexo_inner.two {
+  right: 0;
+  top: 0;
+  animation: rotate-two 1s linear infinite;
+  border-right: 3px solid #888;
+  position: absolute;
+}
+.qexo_inner.three {
+  right: 0;
+  bottom: 0;
+  animation: rotate-three 1s linear infinite;
+  border-top: 3px solid #888;
+  position: absolute;
+}
+@keyframes rotate-one {
+  0% {
+    transform: rotateX(35deg) rotateY(-45deg) rotateZ(0);
+  }
+  100% {
+    transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg);
+  }
+}
+@keyframes rotate-two {
+  0% {
+    transform: rotateX(50deg) rotateY(10deg) rotateZ(0);
+  }
+  100% {
+    transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg);
+  }
+}
+@keyframes rotate-three {
+  0% {
+    transform: rotateX(35deg) rotateY(55deg) rotateZ(0);
+  }
+  100% {
+    transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
+  }
+}
+/* 每条动态 */
+#qexot > section > div > div > div {
+  display: flex;
+  flex-direction: initial;
+  flex-wrap: wrap;
+  border-radius: 12px;
+  padding: 8px 16px;
+  margin-top: 12px;
+}
+#qexot > section > div > div {
+  box-shadow: -1px 5px 10px 0 rgba(50, 50, 93, 0.1), 0 0 10px rgba(0, 0, 0, 0.07) !important;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+#qexot p {
+  margin: 0;
+}
+#qexot .datafrom i {
+  margin-right: 4px;
+}
+/* 时间 */
+#qexot > section > div > div > div .qexot-datatime {
+  order: 1;
+  font-size: 0.6rem;
+}
+/* 标签 */
+#qexot > section > div > div > div .qexot-tags {
+  position: absolute;
+  right: 0;
+  top: 180%;
+  font-size: 0.6rem;
+  margin-top: -7%;
+  background: #d0d4e7;
+  color: #333;
+  border-radius: 5px;
+  padding: 1px 8px;
+}
+/* 内容 */
+#qexot > section > div > div > div .datacont {
+  order: 0;
+  font-size: 1rem;
+  font-weight: bold;
+  width: 100%;
+  line-height: 1.38;
+  margin: 8px 0;
+}
+#qexot .qexot-like {
+  cursor: pointer;
+  padding: 0 10px;
+  font-size: xx-small;
+  fill: currentColor;
+}
+#qexot .qexot-like svg {
+  vertical-align: middle;
+}
+#qexot .qexot-like span {
+  vertical-align: middle;
+  margin-left: 5px;
+}
+#qexot .qexot-bottom {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+#qexot .qexot-bottom .iconfont {
+  vertical-align: middle;
+  cursor: pointer;
+}
+#qexot .qexot-top {
+  position: absolute;
+  white-space: nowrap;
+  right: 13%;
+}
+#qexot div.qexot-content {
+  display: flex;
+  flex-direction: initial;
+  flex-wrap: wrap;
+  border-radius: 12px;
+  width: 100%;
+}
+#qexot .qexot div div.qexot-item {
+  position: relative;
+  width: 90%;
+  border-radius: 12px;
+  padding: 1rem;
+  padding-bottom: 0.5rem;
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 5%;
+  transition: all 0.3s;
+  border: 1px solid #e3e8f7;
+  box-shadow: 0 8px 16px -4px #2c2d300c !important;
+}
+#qexot .qexot div div.qexot-item:hover {
+  transform: translateY(-5px);
+  border: 1px solid #1677b3;
+}
+.qexot-more {
+  border-width: 1px;
+  border: 1px solid transparent;
+  border-radius: 48px;
+  box-shadow: -1px 5px 10px 0 rgba(50, 50, 93, 0.1), 0 0 10px rgba(0, 0, 0, 0.07) !important;
+  background-color: rgba(255, 255, 255, 0.05);
+  cursor: pointer;
+  padding-bottom: calc(0.375em - 1px);
+  padding-top: calc(0.375em - 1px);
+  text-align: center;
+  white-space: nowrap;
+  width: 20%;
+  margin-bottom: 10px;
+  transition: all 0.3s;
+}
+.qexot-more:hover {
+  transform: translateY(5px);
+}
+#banner_jike {
+  background-image: url(https://s11.ax1x.com/2023/12/27/pibLhLQ.jpg);
+  width: 100%;
+  height: 450px;
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 25px;
+  color: #fff;
+  padding: 15px 30px;
+}
+#banner_jike span {
+  font-size: 15px;
+}
+#banner_jike h2 {
+  color: #fff;
+}
+.qexot-list {
+  width: 90% !important;
+}
+#qexot {
+  opacity: 0;
+}
+@keyframes opc {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
