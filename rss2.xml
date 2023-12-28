@@ -4,15 +4,15 @@
   xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>小羊哥福利线报中心</title>
-    <link>https://xygfuli.gitee.io/xygfuli/</link>
+    <link>http://localhost:4000/</link>
     
     <image>
-      <url>https://xygfuli.gitee.io/xygfuli/icon.png</url>
+      <url>http://localhost:4000/icon.png</url>
       <title>小羊哥福利线报中心</title>
-      <link>https://xygfuli.gitee.io/xygfuli/</link>
+      <link>http://localhost:4000/</link>
     </image>
     
-    <atom:link href="https://xygfuli.gitee.io/xygfuli/rss2.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="http://localhost:4000/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>平时会记录一些博客</description>
     <pubDate>Thu, 28 Dec 2023 11:01:05 GMT</pubDate>
@@ -20,8 +20,8 @@
     
     <item>
       <title>关于微信前端支付在微信环境如何支付</title>
-      <link>https://xygfuli.gitee.io/xygfuli/2023/10/15/weichart/</link>
-      <guid>https://xygfuli.gitee.io/xygfuli/2023/10/15/weichart/</guid>
+      <link>http://localhost:4000/2023/10/15/weichart/</link>
+      <guid>http://localhost:4000/2023/10/15/weichart/</guid>
       <pubDate>Sat, 14 Oct 2023 16:00:00 GMT</pubDate>
       
         
@@ -35,18 +35,18 @@
       
       
       
-      <category domain="https://xygfuli.gitee.io/xygfuli/categories/%E5%88%86%E4%BA%AB%E8%BD%AC%E8%BD%BD/">分享转载</category>
+      <category domain="http://localhost:4000/categories/%E5%88%86%E4%BA%AB%E8%BD%AC%E8%BD%BD/">分享转载</category>
       
       
       
-      <comments>https://xygfuli.gitee.io/xygfuli/2023/10/15/weichart/#disqus_thread</comments>
+      <comments>http://localhost:4000/2023/10/15/weichart/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>测试</title>
-      <link>https://xygfuli.gitee.io/xygfuli/2023/10/15/test/</link>
-      <guid>https://xygfuli.gitee.io/xygfuli/2023/10/15/test/</guid>
+      <link>http://localhost:4000/2023/10/15/test/</link>
+      <guid>http://localhost:4000/2023/10/15/test/</guid>
       <pubDate>Sat, 14 Oct 2023 16:00:00 GMT</pubDate>
       
         
@@ -60,18 +60,18 @@
       
       
       
-      <category domain="https://xygfuli.gitee.io/xygfuli/categories/%E5%88%86%E4%BA%AB%E8%BD%AC%E8%BD%BD/">分享转载</category>
+      <category domain="http://localhost:4000/categories/%E5%88%86%E4%BA%AB%E8%BD%AC%E8%BD%BD11/">分享转载11</category>
       
       
       
-      <comments>https://xygfuli.gitee.io/xygfuli/2023/10/15/test/#disqus_thread</comments>
+      <comments>http://localhost:4000/2023/10/15/test/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>测试</title>
-      <link>https://xygfuli.gitee.io/xygfuli/2023/10/15/test-copy/</link>
-      <guid>https://xygfuli.gitee.io/xygfuli/2023/10/15/test-copy/</guid>
+      <link>http://localhost:4000/2023/10/15/test-copy/</link>
+      <guid>http://localhost:4000/2023/10/15/test-copy/</guid>
       <pubDate>Sat, 14 Oct 2023 16:00:00 GMT</pubDate>
       
         
@@ -85,18 +85,18 @@
       
       
       
-      <category domain="https://xygfuli.gitee.io/xygfuli/categories/%E6%B5%8B%E8%AF%95/">测试</category>
+      <category domain="http://localhost:4000/categories/%E6%B5%8B%E8%AF%95/">测试</category>
       
       
       
-      <comments>https://xygfuli.gitee.io/xygfuli/2023/10/15/test-copy/#disqus_thread</comments>
+      <comments>http://localhost:4000/2023/10/15/test-copy/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>测试</title>
-      <link>https://xygfuli.gitee.io/xygfuli/2023/10/15/test-copy-2/</link>
-      <guid>https://xygfuli.gitee.io/xygfuli/2023/10/15/test-copy-2/</guid>
+      <link>http://localhost:4000/2023/10/15/test-copy-2/</link>
+      <guid>http://localhost:4000/2023/10/15/test-copy-2/</guid>
       <pubDate>Sat, 14 Oct 2023 16:00:00 GMT</pubDate>
       
         
@@ -110,11 +110,11 @@
       
       
       
-      <category domain="https://xygfuli.gitee.io/xygfuli/categories/%E6%B5%8B%E8%AF%95%E5%88%86%E7%B1%BB/">测试分类</category>
+      <category domain="http://localhost:4000/categories/%E6%B5%8B%E8%AF%95%E5%88%86%E7%B1%BB/">测试分类</category>
       
       
       
-      <comments>https://xygfuli.gitee.io/xygfuli/2023/10/15/test-copy-2/#disqus_thread</comments>
+      <comments>http://localhost:4000/2023/10/15/test-copy-2/#disqus_thread</comments>
       
     </item>
     

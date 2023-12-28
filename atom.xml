@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>小羊哥福利线报中心</title>
-  <icon>https://xygfuli.gitee.io/xygfuli/icon.png</icon>
+  <icon>http://localhost:4000/icon.png</icon>
   <subtitle>及时当勉励，岁月不待人。</subtitle>
-  <link href="https://xygfuli.gitee.io/xygfuli/atom.xml" rel="self"/>
+  <link href="http://localhost:4000/atom.xml" rel="self"/>
   
-  <link href="https://xygfuli.gitee.io/xygfuli/"/>
+  <link href="http://localhost:4000/"/>
   <updated>2023-12-28T11:01:05.950Z</updated>
-  <id>https://xygfuli.gitee.io/xygfuli/</id>
+  <id>http://localhost:4000/</id>
   
   <author>
     <name>小羊哥</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>关于微信前端支付在微信环境如何支付</title>
-    <link href="https://xygfuli.gitee.io/xygfuli/2023/10/15/weichart/"/>
-    <id>https://xygfuli.gitee.io/xygfuli/2023/10/15/weichart/</id>
+    <link href="http://localhost:4000/2023/10/15/weichart/"/>
+    <id>http://localhost:4000/2023/10/15/weichart/</id>
     <published>2023-10-14T16:00:00.000Z</published>
     <updated>2023-12-28T11:01:05.950Z</updated>
     
@@ -34,17 +34,17 @@
     
     
     
-    <category term="分享转载" scheme="https://xygfuli.gitee.io/xygfuli/categories/%E5%88%86%E4%BA%AB%E8%BD%AC%E8%BD%BD/"/>
+    <category term="分享转载" scheme="http://localhost:4000/categories/%E5%88%86%E4%BA%AB%E8%BD%AC%E8%BD%BD/"/>
     
     
   </entry>
   
   <entry>
     <title>测试</title>
-    <link href="https://xygfuli.gitee.io/xygfuli/2023/10/15/test/"/>
-    <id>https://xygfuli.gitee.io/xygfuli/2023/10/15/test/</id>
+    <link href="http://localhost:4000/2023/10/15/test/"/>
+    <id>http://localhost:4000/2023/10/15/test/</id>
     <published>2023-10-14T16:00:00.000Z</published>
-    <updated>2023-12-28T11:12:47.062Z</updated>
+    <updated>2023-12-28T13:52:13.287Z</updated>
     
     
       
@@ -57,15 +57,15 @@
     
     
     
-    <category term="分享转载" scheme="https://xygfuli.gitee.io/xygfuli/categories/%E5%88%86%E4%BA%AB%E8%BD%AC%E8%BD%BD/"/>
+    <category term="分享转载11" scheme="http://localhost:4000/categories/%E5%88%86%E4%BA%AB%E8%BD%AC%E8%BD%BD11/"/>
     
     
   </entry>
   
   <entry>
     <title>测试</title>
-    <link href="https://xygfuli.gitee.io/xygfuli/2023/10/15/test-copy/"/>
-    <id>https://xygfuli.gitee.io/xygfuli/2023/10/15/test-copy/</id>
+    <link href="http://localhost:4000/2023/10/15/test-copy/"/>
+    <id>http://localhost:4000/2023/10/15/test-copy/</id>
     <published>2023-10-14T16:00:00.000Z</published>
     <updated>2023-12-28T11:13:08.637Z</updated>
     
@@ -80,15 +80,15 @@
     
     
     
-    <category term="测试" scheme="https://xygfuli.gitee.io/xygfuli/categories/%E6%B5%8B%E8%AF%95/"/>
+    <category term="测试" scheme="http://localhost:4000/categories/%E6%B5%8B%E8%AF%95/"/>
     
     
   </entry>
   
   <entry>
     <title>测试</title>
-    <link href="https://xygfuli.gitee.io/xygfuli/2023/10/15/test-copy-2/"/>
-    <id>https://xygfuli.gitee.io/xygfuli/2023/10/15/test-copy-2/</id>
+    <link href="http://localhost:4000/2023/10/15/test-copy-2/"/>
+    <id>http://localhost:4000/2023/10/15/test-copy-2/</id>
     <published>2023-10-14T16:00:00.000Z</published>
     <updated>2023-12-28T11:13:28.629Z</updated>
     
@@ -103,7 +103,7 @@
     
     
     
-    <category term="测试分类" scheme="https://xygfuli.gitee.io/xygfuli/categories/%E6%B5%8B%E8%AF%95%E5%88%86%E7%B1%BB/"/>
+    <category term="测试分类" scheme="http://localhost:4000/categories/%E6%B5%8B%E8%AF%95%E5%88%86%E7%B1%BB/"/>
     
     
   </entry>
