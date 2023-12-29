@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>测试</title>
+    <url>/2023/10/15/test-copy/</url>
+    <content><![CDATA[<h3 id="测试用的"><a href="#测试用的" class="headerlink" title="测试用的"></a>测试用的</h3><p>测试</p>
+]]></content>
+      <categories>
+        <category>测试</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>测试</title>
+    <url>/2023/10/15/test-copy-2/</url>
+    <content><![CDATA[<h3 id="测试用的"><a href="#测试用的" class="headerlink" title="测试用的"></a>测试用的</h3><p>测试</p>
+]]></content>
+      <categories>
+        <category>测试分类</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>测试</title>
+    <url>/2023/10/15/test/</url>
+    <content><![CDATA[<h3 id="测试用的"><a href="#测试用的" class="headerlink" title="测试用的"></a>测试用的</h3><p>测试</p>
+]]></content>
+      <categories>
+        <category>分享转载22</category>
+      </categories>
+  </entry>
+  <entry>
     <title>关于微信前端支付在微信环境如何支付</title>
     <url>/2023/10/15/weichart/</url>
     <content><![CDATA[<h3 id="关于微信前端支付在微信环境如何支付"><a href="#关于微信前端支付在微信环境如何支付" class="headerlink" title="关于微信前端支付在微信环境如何支付"></a>关于微信前端支付在微信环境如何支付</h3><p>我们都知道在微信环境中是无法直接使用 H5 支付的，需要调取微信浏览器一些相关 API 去唤醒支付,相关链接如下：</p>
@@ -18,33 +45,6 @@
 ]]></content>
       <categories>
         <category>分享转载</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>测试</title>
-    <url>/2023/10/15/test/</url>
-    <content><![CDATA[<h3 id="测试用的"><a href="#测试用的" class="headerlink" title="测试用的"></a>测试用的</h3><p>测试</p>
-]]></content>
-      <categories>
-        <category>分享转载22</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>测试</title>
-    <url>/2023/10/15/test-copy/</url>
-    <content><![CDATA[<h3 id="测试用的"><a href="#测试用的" class="headerlink" title="测试用的"></a>测试用的</h3><p>测试</p>
-]]></content>
-      <categories>
-        <category>测试</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>测试</title>
-    <url>/2023/10/15/test-copy-2/</url>
-    <content><![CDATA[<h3 id="测试用的"><a href="#测试用的" class="headerlink" title="测试用的"></a>测试用的</h3><p>测试</p>
-]]></content>
-      <categories>
-        <category>测试分类</category>
       </categories>
   </entry>
 </search>
